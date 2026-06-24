@@ -1,102 +1,96 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Blog Tech</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-  <style>
-    body {
-      font-family: 'Segoe UI', system-ui, sans-serif;
-    }
-    .post-card {
-      transition: all 0.3s ease;
-    }
-    .post-card:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-<body class="bg-gray-50">
 
-  <!-- Header -->
-  <header class="bg-[#1e3a8a] text-white py-16">
-    <div class="max-w-4xl mx-auto px-6 text-center">
-      <h1 class="text-5xl font-bold mb-3">Meu Blog Tech</h1>
-      <p class="text-xl opacity-90">Meu compêndio de conhecimentos sobre tecnologia e programação</p>
-    </div>
-  </header>
 
-  <main class="max-w-4xl mx-auto px-6 py-12">
+<body>
 
-    <!-- Post 1 -->
-    <article class="post-card bg-white rounded-2xl shadow-md p-8 mb-10">
-      <div class="flex items-center gap-3 mb-4">
-        <img src="https://avatars.githubusercontent.com/u/12345678?v=4" alt="Avatar" class="w-10 h-10 rounded-full">
-        <div>
-          <p class="font-semibold">Bruno Gouvea Da Silva</p>
-          <p class="text-sm text-gray-500">10 de Junho de 2026</p>
-        </div>
-      </div>
 
-      <h2 class="text-3xl font-bold mb-4 text-gray-800">Meu primeiro post</h2>
-      
-      <p class="text-gray-600 leading-relaxed text-lg mb-6">
-        Bem-vindo ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.
-      </p>
+    <header>
+        <h1>Meu blog tech</h1>
+        <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
+    </header>
 
-      <div class="flex gap-6 text-gray-500">
-        <button class="flex items-center gap-2 hover:text-red-500 transition">
-          ❤️ <span class="text-sm">12</span>
-        </button>
-        <button class="flex items-center gap-2 hover:text-orange-500 transition">
-          🔥 <span class="text-sm">8</span>
-        </button>
-        <button class="flex items-center gap-2 hover:text-blue-500 transition">
-          👍 <span class="text-sm">15</span>
-        </button>
-      </div>
-    </article>
 
-    <!-- Post 2 -->
-    <article class="post-card bg-white rounded-2xl shadow-md p-8">
-      <div class="flex items-center gap-3 mb-4">
-        <img src="https://avatars.githubusercontent.com/u/12345678?v=4" alt="Avatar" class="w-10 h-10 rounded-full">
-        <div>
-          <p class="font-semibold">Bruno Gouvea Da Silva</p>
-          <p class="text-sm text-gray-500">09 de Junho de 2026</p>
-        </div>
-      </div>
+    <main>
 
-      <h2 class="text-3xl font-bold mb-4 text-gray-800">Meu segundo post</h2>
-      
-      <p class="text-gray-600 leading-relaxed text-lg mb-6">
-        Bem-vindo ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.
-      </p>
 
-      <div class="flex gap-6 text-gray-500">
-        <button class="flex items-center gap-2 hover:text-red-500 transition">
-          ❤️ <span class="text-sm">9</span>
-        </button>
-        <button class="flex items-center gap-2 hover:text-orange-500 transition">
-          🔥 <span class="text-sm">6</span>
-        </button>
-        <button class="flex items-center gap-2 hover:text-blue-500 transition">
-          👍 <span class="text-sm">11</span>
-        </button>
-      </div>
-    </article>
+        <article>
+            <img src="imagem-blog.png"
+                alt="Logotipo conceitual de tecnologia e educação: um livro aberto de onde emerge um cérebro digital brilhante, cercado por ícones de Wi-Fi, circuitos e lâmpada de ideia. Cores em tons de azul e branco.">
 
-  </main>
 
-  <!-- Footer -->
-  <footer class="bg-gray-900 text-white py-10 text-center">
-    <div class="max-w-4xl mx-auto px-6">
-      <p>© 2026 Meu Blog Tech • Feito com ❤️ por Marcelo Paladino</p>
-    </div>
-  </footer>
+            <div>
+                <h2>Meu primeiro post</h2>
+
+
+                <p class="artigo-autor">Por: Bruno Gouvea da Silva </p>
+
+
+                <p>
+                    Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação
+                    e curiosidades da área de tecnologia.
+                </p>
+
+
+                <button>
+                    ❤️ <span>0</span>
+                </button>
+
+
+                <button>
+                    👍 <span>0</span>
+                </button>
+            </div>
+        </article>
+
+
+        <article>
+            <img src="imagem-blog.png"
+                alt="Logotipo conceitual de tecnologia e educação: um livro aberto de onde emerge um cérebro digital brilhante, cercado por ícones de Wi-Fi, circuitos e lâmpada de ideia. Cores em tons de azul e branco.">
+
+
+            <div>
+                <h2>Meu segundo post</h2>
+
+
+                <p class="artigo-autor">Por: Bruno Gouvea da Silva</p>
+
+
+                <p>
+                    Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação
+                    e curiosidades da área de tecnologia.
+                </p>
+
+
+                <button>
+                    ❤️ <span>0</span>
+                </button>
+
+
+                <button>
+                    👍 <span>0</span>
+                </button>
+            </div>
+        </article>
+
+
+    </main>
+
 
 </body>
+
+
 </html>
+
+
